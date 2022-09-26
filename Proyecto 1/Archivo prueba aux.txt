@@ -1,0 +1,39 @@
+<Tipo>
+	<Operacion=SUMA>
+		<Numero> 2.3 </Numero>
+		<Numero> 3.13 </Numero>
+	</Operacion>
+	<Operacion=RESTA>
+		<Numero> 48 </Numero>
+		<Numero> 15.2 </Numero>
+	</Operacion>
+	<Operacion=MULTIPLICACION>
+		<Numero> 8 </Numero>
+		<Numero> 3 </Numero>
+	</Operacion>
+	<Operacion=DIVISION>
+		<Numero> 35 </Numero>
+		<Numero> 5 </Numero>
+	</Operacion>
+	<Operacion=SUMA>
+		<Numero> 7.3 </Numero>
+		<Operacion=DIVISION>
+			<Numero> 100 </Numero>
+			<Numero> 20 </Numero>
+		</Operacion>
+	</Operacion>
+</Tipo>
+<Texto>
+Archivo simple de pruebas aritmeticas de proyecto 1
+LFP A+
+</Texto>
+<Funcion=ESCRIBIR>
+	<Titulo>Operaciones aritmeticas </Titulo>
+	<Descripcion> [Texto] </Descripcion>
+	<Contenido> [Tipo] </Contenido>	
+</Funcion>
+<Estilo>
+		<Titulo Color=ROJO Tamanio=6/>
+		<Descripcion Color=VERDE Tamanio=4/>
+		<Contenido Color=AZUL Tamanio=2>
+</Estilo>	
